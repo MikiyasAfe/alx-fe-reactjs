@@ -1,7 +1,6 @@
-import UserInfo from './UserInfo';
+import UserContext from './UserContext';
 
-function ProfilePage() {
-  return <UserInfo />;
-}
+const ProfilePage =  () => useContext(UserContext);
+
 
 export default ProfilePage;
